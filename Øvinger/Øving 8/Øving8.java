@@ -55,7 +55,9 @@ public class Øving8 {
                                     System.out.println("Den nye skatteprosenten er nå " + arbTaker1.getSkatteprosent() + " %");
                                     break;
                         }
-                case 9: break;
+                case 9: input.close();
+                        break;
+
             }     
         }
     }

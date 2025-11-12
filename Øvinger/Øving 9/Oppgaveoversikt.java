@@ -40,7 +40,7 @@ public class Oppgaveoversikt {
         return false;
     }
 
-    public String toString() {
+    public String toString() { //?
         String resultat = "Antall studenter er " + antStud + "\n";
         for (int i = 0; i < antStud; i++) {
             resultat += studenter[i].toString() + "\n"; 

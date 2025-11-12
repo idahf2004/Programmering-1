@@ -19,7 +19,7 @@ public class Student {
         antOppg += oekning;
     }
 
-    public String toString() {
+    public String toString() {//?
         return navn + " har " + antOppg + " oppgaver godkjent!";
     }
 }
